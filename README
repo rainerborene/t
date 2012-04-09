@@ -1,0 +1,38 @@
+t(1)                             User Commands                            t(1)
+
+
+
+NAME
+       t - language translation service from Google
+
+SYNOPSIS
+       t [source] [target] [string]
+
+COPYRIGHT
+       Google Translate is a free statistical machine translation service pro-
+       vided by Google Inc.
+
+AVAILABILITY
+       bash, zsh
+
+DESCRIPTION
+       Bash wrapper to Google Translate website.
+
+LANGUAGE CODES
+       http://en.wikipedia.org/wiki/List_of_ISO_639-1_codes
+
+EXAMPLES
+       t en pt "The World is Yours"
+       t en zh "What's the Matrix?"
+
+AUTHOR
+       Rainer Borene <https://github.com/rainerborene>
+
+SEE ALSO
+       wget, python
+
+       Please file bugs at https://github.com/rainerborene/t/
+
+
+
+t                                 April 2012                              t(1)
