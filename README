@@ -29,7 +29,7 @@ AUTHOR
        Rainer Borene <https://github.com/rainerborene>
 
 SEE ALSO
-       wget, python
+       wget, python, sed, awk
 
        Please file bugs at https://github.com/rainerborene/t/
 
