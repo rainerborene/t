@@ -1,13 +1,9 @@
-.TH t "1" "April 2012" "t" "User Commands"
+.TH t "1" "April 2012" "Version 0.2" "User Commands"
 .SH NAME
 t \- language translation service from Google
 .SH SYNOPSIS
 .B t
-[source] [target] [string]
-.SH COPYRIGHT
-Google Translate is a free statistical machine translation service provided by Google Inc.
-.SH AVAILABILITY
-bash, zsh
+\fIsource\fR \fItarget\fR \fIstring\fR
 .SH DESCRIPTION
 Bash wrapper to Google Translate website.
 .SH LANGUAGE CODES
@@ -17,8 +13,13 @@ http://en.wikipedia.org/wiki/List_of_ISO_639-1_codes
 .br
 \fBt en zh "What's the Matrix?"\fR
 .SH AUTHOR
-Rainer Borene <https://github.com/rainerborene>
+Written by Rainer Borene.
+.SH "REPORTING BUGS"
+Please file bugs at https://github.com/rainerborene/t/issues/
+.SH COPYRIGHT
+Google Translate is a free statistical machine translation service provided by Google Inc.
 .SH SEE ALSO
-wget, python, sed, awk
-.P
-Please file bugs at https://github.com/rainerborene/t/
+.BR wget(1),
+.BR python(1),
+.BR sed(1),
+.BR awk(1)

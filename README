@@ -6,14 +6,7 @@ NAME
        t - language translation service from Google
 
 SYNOPSIS
-       t [source] [target] [string]
-
-COPYRIGHT
-       Google Translate is a free statistical machine translation service pro-
-       vided by Google Inc.
-
-AVAILABILITY
-       bash, zsh
+       t source target string
 
 DESCRIPTION
        Bash wrapper to Google Translate website.
@@ -26,13 +19,18 @@ EXAMPLES
        t en zh "What's the Matrix?"
 
 AUTHOR
-       Rainer Borene <https://github.com/rainerborene>
+       Written by Rainer Borene.
+
+REPORTING BUGS
+       Please file bugs at https://github.com/rainerborene/t/issues/
+
+COPYRIGHT
+       Google Translate is a free statistical machine translation service pro-
+       vided by Google Inc.
 
 SEE ALSO
-       wget, python, sed, awk
-
-       Please file bugs at https://github.com/rainerborene/t/
+       wget(1), python(1), sed(1), awk(1)
 
 
 
-t                                 April 2012                              t(1)
+Version 0.2                       April 2012                              t(1)
